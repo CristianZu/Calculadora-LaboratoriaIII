@@ -24,7 +24,7 @@ namespace Calculadora
 
         private void agregarNumero(object sender, EventArgs e) {
             var boton = ((Button)sender);
-            if (txtResultado.Text == "0")
+            if (txtResultado.Text == "1")
                 txtResultado.Text = "";
 
             txtResultado.Text += boton.Text;
